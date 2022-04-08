@@ -1,4 +1,4 @@
-package edu.sdsu.cs160l.lab10.exceptions;
+package edu.sdsu.cs160l.exceptions;
 
 /**
  * General blueprint to how custom exceptions are created

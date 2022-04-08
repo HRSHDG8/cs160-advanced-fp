@@ -1,4 +1,4 @@
-package edu.sdsu.cs160l.lab10.assignment;
+package edu.sdsu.cs160l.assignment;
 
 /**
  * TODO (4 points)

@@ -1,18 +1,21 @@
-package edu.sdsu.cs160l.lab10.assignment;
+package edu.sdsu.cs160l.assignment;
 
-import edu.sdsu.cs160l.lab10.assignment.institute.Registrar;
-import edu.sdsu.cs160l.lab10.assignment.institute.student.Student;
-import edu.sdsu.cs160l.lab10.assignment.institute.student.StudentLevel;
-import edu.sdsu.cs160l.lab10.assignment.institute.student.StudentMajor;
-import edu.sdsu.cs160l.lab10.exceptions.ClassFullException;
-import edu.sdsu.cs160l.lab10.exceptions.StudentAlreadyEnrolledException;
+import edu.sdsu.cs160l.assignment.institute.Registrar;
+import edu.sdsu.cs160l.assignment.institute.student.Student;
+import edu.sdsu.cs160l.assignment.institute.student.StudentLevel;
+import edu.sdsu.cs160l.assignment.institute.student.StudentMajor;
+import edu.sdsu.cs160l.exceptions.ClassFullException;
+import edu.sdsu.cs160l.exceptions.StudentAlreadyEnrolledException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
  * TODO write all test cases below (2 points)
+ * Note these are not test cases specifically, but rather print statements to view your output
+ * the idea is to practice forEach method
+ *
  */
-public class Lab10Test {
+public class RegistrarTest {
   private Registrar registrar;
 
   @BeforeEach
