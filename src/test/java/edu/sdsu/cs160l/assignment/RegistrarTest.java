@@ -10,7 +10,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * TODO write all test cases below (2 points)
+ * TODO write all test cases below
  * Note these are not test cases specifically, but rather print statements to view your output
  * the idea is to practice forEach method
  *
@@ -68,7 +68,7 @@ public class RegistrarTest {
   @Test
   public void printEnrolledStudents() {
     registrar.getStudentsEnrolled()
-       .forEach(System.out::println);
+       .forEach(e->System.out.println(e));
   }
 
   //TODO write test cases below for each of the following method that just prints the final output of stream operation

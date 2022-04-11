@@ -10,7 +10,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * TODO implement 4 todos below (4 points)
+ * TODO implement 4 todos below (8 points)
  */
 public class Registrar {
   private final Map<String, Course> courseList;
