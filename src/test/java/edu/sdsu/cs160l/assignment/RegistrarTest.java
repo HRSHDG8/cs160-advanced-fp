@@ -46,7 +46,6 @@ public class RegistrarTest {
     } catch (ClassFullException | StudentAlreadyEnrolledException e) {
       e.printStackTrace();
     }
-    System.out.println(registrar);
   }
 
   private void enrollStudentToACourse(Student student, String courseName) {
